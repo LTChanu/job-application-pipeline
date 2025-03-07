@@ -1,0 +1,39 @@
+# Python general ignores
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.env
+*.env
+
+# Credentials files (important if you have service account keys for gspread or AWS credentials)
+*.json
+*.pem
+*.p12
+*.key
+
+# IDE/editor files
+.vscode/
+.idea/
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Ignore data dumps (optional)
+*.csv
+*.xlsx
+*.db
+*.sqlite3
+
+# Ignore compiled Python files
+*.egg-info/
+*.egg
+
+# For AWS CLI or boto credentials if kept locally
+.aws/
+
+# Optional - you might want to keep requirements.txt tracked though
+requirements.txt
